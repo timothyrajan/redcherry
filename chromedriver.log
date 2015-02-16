@@ -1,0 +1,17 @@
+[0512/080223:INFO:chromedriver_server.cc(76)] Handling request: /status 
+[0512/080223:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"","status":0,"value":{"build":{"version":"alpha"},"os":{"arch":"x86","name":"Windows NT","version":"6.1 SP1"}}}
+[0512/080223:INFO:chromedriver_server.cc(76)] Handling request: /session {"desiredCapabilities":{}}
+[0512/080223:INFO:chrome_launcher.cc(74)] Using chrome from C:\Program Files\Google\Chrome\Application\chrome.exe
+[0512/080224:INFO:chromedriver_server.cc(81)] Done handling request: 303 
+[0512/080224:INFO:chromedriver_server.cc(76)] Handling request: /session/56b77b60bd5b04b715de988e248ccd7c 
+[0512/080224:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"56b77b60bd5b04b715de988e248ccd7c","status":0,"value":{"acceptSslCerts":true,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","cssSelectorsEnabled":true,"databaseEnabled":true,"driverVersion":"0.7","handlesAlerts":true,"javascriptEnabled":true,"locationContextEnabled":true,"nativeEvents":true,"platform":"Windows NT","rotatable":false,"takesScreenshot":true,"version":"26.0.1410.64","webStorageEnabled":true}}
+[0512/080224:INFO:chromedriver_server.cc(76)] Handling request: /session/56b77b60bd5b04b715de988e248ccd7c/window/current/maximize {"windowHandle":"current"}
+[0512/080225:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"56b77b60bd5b04b715de988e248ccd7c","status":0,"value":null}
+[0512/080225:INFO:chromedriver_server.cc(76)] Handling request: /session/56b77b60bd5b04b715de988e248ccd7c/url {"url":"http://seleniumsolutions.com/"}
+[0512/080231:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"56b77b60bd5b04b715de988e248ccd7c","status":0,"value":null}
+[0512/080231:INFO:chromedriver_server.cc(76)] Handling request: /session/56b77b60bd5b04b715de988e248ccd7c/element {"using":"xpath","value":"//img[contains(@alt,'Selinium')]"}
+[0512/080231:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"56b77b60bd5b04b715de988e248ccd7c","status":0,"value":{"ELEMENT":"1"}}
+[0512/080231:INFO:chromedriver_server.cc(76)] Handling request: /session/56b77b60bd5b04b715de988e248ccd7c/element {"using":"link text","value":"PLAY GROUND"}
+[0512/080231:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"56b77b60bd5b04b715de988e248ccd7c","status":0,"value":{"ELEMENT":"2"}}
+[0512/080231:INFO:chromedriver_server.cc(76)] Handling request: /session/56b77b60bd5b04b715de988e248ccd7c/element/1/value {"id":"1","value":[""]}
+[0512/080232:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"56b77b60bd5b04b715de988e248ccd7c","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=26.0.1410.64)\n  (Driver info: chromedriver=0.7,platform=Windows NT 6.1 SP1 x86)"}}

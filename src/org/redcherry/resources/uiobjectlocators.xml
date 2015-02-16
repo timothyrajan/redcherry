@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<uiobjectlocators>    
+    <!--SIGN IN PAGE-->
+    <SignInPage>
+        <ebUserName findby="name" name="Email" />		
+        <ebPassword findby="id" id="Passwd" />
+        <chkbxStaySignedIn findby="id" id="PersistentCookie" />
+        <lnkCannotaccessaccount findby="linkText" linkText="Can't access your account?" /> 
+    </SignInPage>    
+    
+    <!--SELENIUMSOLUTIONS HOME PAGE-->
+    <SeleniumsSolutionsHomePage>
+        <imgSelenium findby="xpath" xpath=  "//img[contains(@alt,'Selinium')]" />
+        <lnkPlayGround findby="linkText" linkText="PLAY GROUND" />
+    </SeleniumsSolutionsHomePage>
+    
+    <!--SELENIUMSOLUTIONS PLAYGROUND PAGE-->
+    <SeleniumsSolutionsPlayGroundPage>
+        <lnkGoodLink findby="linkText" linkText="Click Here To Launch A Browser" />
+        <lnkBrokenLink findby="linkText" linkText="Click Here To Load Broken Link" />
+        <ebEnterYourName findby="id" id="author_name" />
+        <wlSelectYourCity findby="id" id="select" />
+        <chkbxYourAgeGroup findby="name" name="chk" />     
+        <btnClear findby="id" id="rest" />           
+    </SeleniumsSolutionsPlayGroundPage>
+                
+</uiobjectlocators>
