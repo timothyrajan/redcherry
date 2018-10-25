@@ -1,0 +1,24 @@
+What is BDD?
+------------
+
+BDD stands for Behaviour Driven Development. 
+
+BDD is an evolution in the thinking behind Test Driven Development and Acceptance Test Driven Planning
+
+So what is Test Driven Development?
+-----------------------------------
+
+Test Driven Development is a good development practice to write automated tests to ensure the application is working well before writing the code. 
+
+BDD is an extension of Test Driven Development where we write specifications describing what the software is expected to do. These specifications are later converted to automated code. 
+
+
+A Brief History
+---------------
+Initially BDD was widely adopted in Ruby's world and is known as Cucumber framework. Later, this was adopted by all leading programming languages. 
+
+Some are
+
+.NET => Specflow
+JAVA => Cucumber-jvm and Jbehave
+Ruby => Cucumber
