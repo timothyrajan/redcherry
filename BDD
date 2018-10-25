@@ -37,6 +37,22 @@ And I login with a valid facebook account
 When I search for Tim in my friends list
 Then I should be able to see Tim's Photo
 
+Advantages of using BDD?
+All Development work can be tracked directly to business requirements/goals
+One on One match with requirement and features in the software
+Everyone has a shared understanding of the project since the language is common english
 
 
+The most common adopted standard for expressing a scenario is using Given - When - Then 
+
+Given - This gives the context of the scenario. Also, I can say that this is kind of a test bed/ test set up where the user performs some action before the test starts.
+
+When - This is nothing but the actual action. The action means test steps which are carried out.
+
+Then - This is the expected desired outcome with respect to the action which was taken in the When block. 
+
+An example from the Internet
+Given my bank account is in credit, and I made no withdrawals recently,
+When I attempt to withdraw an amount less than my card's limit,
+Then the withdrawal should complete without errors or warnings
 
