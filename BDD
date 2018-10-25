@@ -22,3 +22,21 @@ Some are
 .NET => Specflow
 JAVA => Cucumber-jvm and Jbehave
 Ruby => Cucumber
+
+
+So what are the terms I want to learn in BDD?
+
+Feature  - A feature is a desired product functionality involving multiple features
+
+example: As a facebook user, In order to keep track of my friends list, I want to manage friends by adding or removing them. 
+
+Scenario - A scenario is a specification with detailed steps, input and data associated with input and the desired output. 
+
+Given I have a valid facebook account
+And I login with a valid facebook account
+When I search for Tim in my friends list
+Then I should be able to see Tim's Photo
+
+
+
+
